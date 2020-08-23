@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  width: 100%;
+  height: 80px;
+}
+
+header img {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
