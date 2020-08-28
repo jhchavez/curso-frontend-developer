@@ -151,3 +151,23 @@ ul:hover {
   right: 0;
   bottom: 0;
 }
+
+/* .footer .social__media-icons {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  background-color: #47cfac;
+}
+.footer .social__media-icons {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: end;
+  margin-right: 50px;
+}
+.footer .social__media-icons {
+  color: white;
+} */
