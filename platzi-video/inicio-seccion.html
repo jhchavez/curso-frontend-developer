@@ -10,27 +10,23 @@
 </head>
 <body>
     <header class="header">
-        <img
-          class="header__img"
-          src="../assets/images/logo-platzi-video-BW2.png"
-          alt=""
-        />
+        <img tabindex="0" class="header__img" src="../assets/images/logo-platzi-video-BW2.png" alt=""/>
         <div class="header__menu">
           <div class="header__menu--profile">
             <img src="../assets/images/user.png" alt="" />
-            <p>Perfil</p>
+            <p tabindex="0">Perfil</p>
           </div>
           <ul>
-            <li><a href="./index.html">Salir</a></li>
+            <li tabindex="0"><a href="./index.html">Salir</a></li>
           </ul>
         </div>
       </header>
     <section class="login">
         <section class="login__container">
-            <h2>Inicia Sesion</h2>
+            <h2 tabindex="0">Inicia Sesion</h2>
             <form class="login__container--form">
-                <input class="input-login" type="text" placeholder="Correo o Usuario">
-                <input class="input-login" type="password" placeholder="Contraseña">
+                <input aria-label="Correo o Usuario" class="input-login" type="text" placeholder="Correo o Usuario">
+                <input aria-label="Contraseña" class="input-login" type="password" placeholder="Contraseña">
                 <button class="button" ><a href="./carrousel.html"> Iniciar sesion</a></button>
                 <div class="login__container--remember-me">
                     <label>
