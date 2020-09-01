@@ -4,7 +4,6 @@ body {
   margin: 0px;
   font-family: "Mulish", sans-serif;
 }
-
 /* -------------header */
 .header {
   background-color: #0093e9;
@@ -77,8 +76,8 @@ ul:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
 
+}
 .main__title {
   color: white;
   font-size: 25px;
@@ -103,7 +102,6 @@ ul:hover {
   padding: 0px 20px;
   width: 70%;
 }
-
 ::placeholder {
   color: white;
 }
@@ -203,7 +201,7 @@ ul:hover {
 }
 
 .login__container--form label {
-  font-size: 14px;
+ font-size: 14px;
 }
 
 .login__container--remember-me {
@@ -234,8 +232,8 @@ ul:hover {
 }
 
 .login__container--social-media > div > img {
-  width: 30px;
-  margin-right: 10px;
+width: 30px;
+margin-right: 10px;
 }
 
 .login__container--register {
@@ -314,6 +312,7 @@ ul:hover {
 }
 
 /* ----------------register */
+
 .register {
   display: flex;
   align-items: center;
@@ -357,8 +356,8 @@ ul:hover {
 }
 
 .register__container--social-media div img {
-  width: 30px;
-  margin-right: 10px;
+width: 30px;
+margin-right: 10px; 
 }
 
 .input-register {
@@ -395,9 +394,10 @@ ul:hover {
 }
 
 /* ----------------not-found */
+
 .not-found {
   color: white;
-  background-image: url("../images/not-found.jpg");
+  background-image: url('../images/not-found.jpg');
   padding: 15%;
   background-position: center top;
   background-repeat: no-repeat;
@@ -420,15 +420,9 @@ ul:hover {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
 }
 .bounce {
   animation-name: bounce;
@@ -441,30 +435,14 @@ ul:hover {
 }
 
 @keyframes wobble {
-  0% {
-    transform: translateX(0%);
-  }
-  15% {
-    transform: translateX(-25%) rotate(-5deg);
-  }
-  30% {
-    transform: translateX(20%) rotate(3deg);
-  }
-  45% {
-    transform: translateX(-15%) rotate(-3deg);
-  }
-  60% {
-    transform: translateX(10%) rotate(2deg);
-  }
-  75% {
-    transform: translateX(-5%) rotate(-1deg);
-  }
-  100% {
-    transform: translateX(0%);
-  }
+  0% {transform: translateX(0%);}
+  15% {transform: translateX(-25%) rotate(-5deg);}
+  30% {transform: translateX(20%) rotate(3deg);}
+  45% {transform: translateX(-15%) rotate(-3deg);}
+  60% {transform: translateX(10%) rotate(2deg);}
+  75% {transform: translateX(-5%) rotate(-1deg);}
+  100% {transform: translateX(0%);}
 }
 .wobble {
   animation-name: wobble;
 }
-
-/*# sourceMappingURL=main.css.map */
